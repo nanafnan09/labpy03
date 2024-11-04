@@ -119,6 +119,53 @@ python
 Mencetak Total Modal Akhir: Baris ini mencetak total modal pada akhir bulan ke-8 setelah setiap iterasi loop. Namun, perlu dicatat bahwa baris ini seharusnya berada di luar loop jika Anda ingin mencetak total modal hanya sekali setelah semua bulan dihitung.
 
 # Berikut hasil latihan 2
+![Foto](https://github.com/nanafnan09/-hasil-foto-kode-pemrograman-labpy03/blob/0b464c038c38070ca092798edc1a3b1af1764fe9/Latihan%202%20b%20pemrograman.png)
+
+# Latihan 3
+
+```
+python
+saldo = 1000000
+```
+Inisialisasi Saldo Awal: Variabel `saldo` diinisialisasi dengan nilai 10.000.000 (sepuluh juta).
+
+```
+python
+while True:
+```
+Loop Tidak Terbatas: Struktur kontrol `while True:` membuat loop yang akan berlanjut secara tak henti sampai kondisi tertentu dipenuhi untuk keluar dari loop.
+
+```
+python
+print(f"\nSaldo saat ini: Rp{saldos}")
+print("1. Tarik tunai")
+print("2. Keluar")
+pilihan = int(input("Pilih Menu (1/2): "))
+```
+Cetakan Pilihan Menu:
+program mencetak informasi terkait saldo saat ini.
+program mencetak menu pilihan yaitu tarik tunai (opsi 1) dan keluar (opsi 2).
+Input pengguna diminta untuk memilih salah satu opsi menu dengan menggunakan fungsi `input`.
+Hasil input dikonversi ke jenis data integer menggunakan `int()`.
+
+```
+python
+if pilihan == 1:
+    jumlah = int(input("Masukan jumlah penarikan: Rp"))
+    if jumlah <= saldo:
+        saldo -= jumlah 
+        print(f"Penarikan berhasil.Sisa saldo anda : Rp{saldos}")
+    else :
+       print ("Saldonya tidak cukup ! ")
+```
+Proses Penarikan Tunai:
+Jika pengguna memilih opsi 1 (tarik tunai), maka program akan meminta input jumlah penarikan tunai.
+Masukan jumlah penarikan juga dikonversi ke jenis data integer menggunakan `int()`.
+Program kemudian membandingkan jumlah penarikan dengan saldo yang tersedia.
+Jika jumlah penarikan tidak melebihi saldo, maka saldo dikurangi sesuai dengan jumlah penarikan dan pesan sukses penarikan akan dicetak.
+Jika jumlah penarikan melebihi saldo, maka pesan gagal penarikan akan dicetak.
+
+# Hasil dari Latihan 3
 ![Foto]()
 
 
