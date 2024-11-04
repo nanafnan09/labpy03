@@ -3,7 +3,7 @@ Nama : Afnan Dika Ramadhan
 
 Kelas : TI24.A5
 
-NIM 312410518
+NIM : 312410518
 
 #  Latihan 1
 
