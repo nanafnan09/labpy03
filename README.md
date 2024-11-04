@@ -166,7 +166,7 @@ Jika jumlah penarikan tidak melebihi saldo, maka saldo dikurangi sesuai dengan j
 Jika jumlah penarikan melebihi saldo, maka pesan gagal penarikan akan dicetak.
 
 # Hasil dari Latihan 3
-![Foto]()
+![Foto](https://github.com/nanafnan09/-hasil-foto-kode-pemrograman-labpy03/blob/0b464c038c38070ca092798edc1a3b1af1764fe9/Latihan%203%20b%20pemrograman.png)
 
 
 
